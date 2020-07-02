@@ -32,14 +32,14 @@ Admittedly I cannot find a way to implement working integration test for ASP.NET
 So, instead I've implemented a unit test for each endpoint.
 
 # Demonstration
-I've written a simple console application that'll demonstrate rate limiter which can be found here https://github.com/thanabodeeB/RateLimitDemo.<br/>
+I've written a simple console application that'll demonstrate rate limiter which can be found here: https://github.com/thanabodeeB/RateLimitDemo.<br/>
 This console application will make a GET http request in interval that'll be more frequent than the configured limit to induce when the limit is exceeded.<br/>
 And you can directly run .exe file in RateLimitDemo/bin/Debug/RateLimitDemo.exe in case the code cannot be compile.<br/>
 I've program the hardcode for demo in 3 different ways<br/>
 1.Localhost: if you could compile the web project with Visual Studio.<br/>
 2.Hosted: that've deployed the web project for demonstration sake or in case you cannot compile the code for some reason.<br/>
 3.Custom: for you to input the path and rate of rate limiting.<br/>
-I've hosted the website on Azure Web Server for rate limit project here http://hotelinfo.azurewebsites.net/<br/>
+I've hosted the website on Azure Web Server for rate limit project here: http://hotelinfo.azurewebsites.net/<br/>
 There are 2 endpoints.
 
 [GET]
