@@ -1,4 +1,4 @@
-# RateLimit implementation Code Challenge
+# Rate Limit implementation Code Challenge
 
 For this project I use c# ASP.NET MVC to implement the funtionality.<br/>
 The project should be able to complie in Visual Studio 2017 or newer.<br/>
