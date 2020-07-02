@@ -5,7 +5,7 @@ The project should be able to complie in Visual Studio 2017 or newer.<br/>
 I've decided not to use database for data storage for ease of testing and presenting.<br/>
 
 # Rate Limit
-My main job is to implement rate-limited API that satisfied these specification.<br/>
+My main job is to implement rate-limited API that satisfied these specification without usage of external library.<br/>
 c. Both these values have to be easily configurable per endpoint (requests and/or periods), and should
 fallback to a default 50 requests every 10 seconds if no configuration is provided.<br/>
 d. If the rate gets higher than the threshold on an endpoint, the API should stop responding for 5
