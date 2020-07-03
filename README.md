@@ -39,6 +39,8 @@ I've program the hardcode for demo in 3 different ways<br/>
 1.Localhost: if you could compile the web project with Visual Studio.<br/>
 2.Hosted: that've deployed the web project for demonstration sake or in case you cannot compile the code for some reason.<br/>
 3.Custom: for you to input the path and rate of rate limiting.<br/>
+*** I've put a delay for 3 seconds before start sending request
+*** Hosted path will take more time to process if hasn't been called for a long period of time, this may mess up the result.
 I've hosted the website on Azure Web Server for rate limit project here: http://hotelinfo.azurewebsites.net/<br/>
 There are 2 endpoints.
 
@@ -51,3 +53,5 @@ ex. localhost/hotel/city?city=bangkok or localhost/hotel/city?city=bangkok&order
 /hotel/room :string room, string order(optional)<br/>
 ex. localhost/hotel/room?room=deluxe or localhost/hotel/room?room=deluxe&order=desc
 <br/>Default rate limit is 100 requests every 10 seconds and stop for 5 seconds
+
+
